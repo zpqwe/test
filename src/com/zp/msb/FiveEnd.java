@@ -41,7 +41,6 @@ public class FiveEnd {
     },"t2");
 
     public static void main(String[] args) {
-
         FiveEnd fiveEnd=new FiveEnd();
         fiveEnd.t1.start();
         fiveEnd.t2.start();
