@@ -13,9 +13,13 @@ import java.util.Set;
 public class Solution {
     // 使用数组从大到小排序，如果存在重复元素一定出现在相邻位置
     public boolean containsDuplicate(int[] nums){
+        //Arrays.sort 将数组元素排序
         Arrays.sort(nums);
+        //得到数组的长度
         int n=nums.length;
+        //遍历数组  n-1是为了避免下标越界
         for (int i = 0; i < n-1; i++) {
+            //如果当前元素等于下一个元素，就说明存在相同元素
             if(nums[i]==nums[i+1]){
                 return true;
             }
