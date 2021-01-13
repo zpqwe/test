@@ -7,7 +7,7 @@ package com.zp.solution;
  *
  * 验证回文串
  **/
-public class Soulution10 {
+public class Solution10 {
     public boolean isPalindrome(String s){
         StringBuffer sgood=new StringBuffer();
         int length=s.length();

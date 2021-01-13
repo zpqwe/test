@@ -10,7 +10,7 @@ import java.util.Arrays;
  *
  * 有效的字母异位词
  **/
-public class Soulution9 {
+public class Solution9 {
     public boolean isAnagram(String s,String t){
         if(s.length()!=t.length()){
             return false;
